@@ -3,9 +3,10 @@
 	"id": "armor-of-fleet-foot",
 	"version": "${version}",
 	"name": "Armor-of-Fleet-Foot",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Armor set that increases your base movement speed at the cost of all protection.",
 	"authors": [
-		"Me!"
+		"Eric Scott Owens",
+		"Scott McKye Owens"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
