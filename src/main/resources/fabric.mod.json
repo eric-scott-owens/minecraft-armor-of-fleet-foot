@@ -9,18 +9,21 @@
 		"Scott McKye Owens"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/eric-scott-owens/minecraft-armor-of-fleet-foot",
+		"sources": "https://github.com/eric-scott-owens/minecraft-armor-of-fleet-foot"
 	},
-	"license": "CC0-1.0",
+	"license": "GNU GPL 3.0",
 	"icon": "assets/armor-of-fleet-foot/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.owens.armor_of_fleet_foot.ArmorofFleetFoot"
+			"net.owens.armor_of_fleet_foot.ArmorOfFleetFoot"
+		],
+		"client": [
+			"net.owens.armor_of_fleet_foot.ArmorOfFleetFootClient"
 		],
 		"fabric-datagen": [
-			"net.owens.armor_of_fleet_foot.ArmorofFleetFootDataGenerator"
+			"net.owens.armor_of_fleet_foot.ArmorOfFleetFootDataGenerator"
 		]
 	},
 	"mixins": [
